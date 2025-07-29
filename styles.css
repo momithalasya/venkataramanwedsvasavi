@@ -66,8 +66,9 @@ body {
 /* Solid brown photo frame with hover effect */
 .photo-frame {
   position: relative;
-  width: 800px;
-  height: 350px;
+  width:90%;
+  max-width: 800px;
+  aspect-ratio: 1.4;
   margin: 40px auto;
   border: 5px solid #210d02;
   border-radius: 20px;
